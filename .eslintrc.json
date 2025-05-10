@@ -11,11 +11,12 @@
     "@next/next/no-html-link-for-pages": "off",
     "react/jsx-key": "off",
     "tailwindcss/no-custom-classname": "off",
-    "tailwindcss/classnames-order": "warn",
-    "tailwindcss/enforces-shorthand": "warn",
-    "tailwindcss/migration-from-tailwind-2": "warn",
-    "tailwindcss/no-unnecessary-arbitrary-value": "warn",
-    "react/no-unescaped-entities": "warn"
+    "tailwindcss/classnames-order": "off",
+    "tailwindcss/enforces-shorthand": "off",
+    "tailwindcss/migration-from-tailwind-2": "off",
+    "tailwindcss/no-unnecessary-arbitrary-value": "off",
+    "react/no-unescaped-entities": "off",
+    "import/no-anonymous-default-export": "off"
   },
   "settings": {
     "tailwindcss": {
