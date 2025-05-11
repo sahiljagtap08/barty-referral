@@ -29,38 +29,38 @@ export const infos: InfoLdg[] = [
 export const features: FeatureLdg[] = [
   {
     title: "Tailored, not spammy",
-    description: "Your résumé and the job description get fused into 1:1 messaging.",
-    link: "/",
+    description: "Your resume and the job description get fused into 1:1 messaging.",
+    link: "/dashboard/referrals",
     icon: "messages",
   },
   {
     title: "Replies land in your inbox",
     description: "Messages are sent from you, not a weird no-reply bot.",
     icon: "messages",
-    link: "/",
+    link: "/dashboard/settings",
   },
   {
     title: "Follow-ups auto-scheduled",
     description: "We ping recruiters twice (nicely!) if they don't respond.",
-    link: "/",
+    link: "/dashboard/referrals",
     icon: "lineChart",
   },
   {
     title: "Track your referrals",
     description: "Get live status when someone refers you or replies.",
-    link: "/",
+    link: "/dashboard/referrals",
     icon: "lineChart",
   },
   {
     title: "Resume analysis & tuning",
     description: "Get instant feedback on how your resume matches each job to maximize referral chances.",
-    link: "/",
+    link: "/dashboard",
     icon: "search",
   },
   {
     title: "One-click outreach",
     description: "Reach multiple potential referrers at your target company with personalized messages.",
-    link: "/",
+    link: "/dashboard/referrals",
     icon: "arrowRight",
   },
 ];

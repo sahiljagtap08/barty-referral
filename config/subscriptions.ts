@@ -63,8 +63,8 @@ export const pricingData: SubscriptionPlan[] = [
     ],
     limitations: [],
     prices: {
-      monthly: 49.99,
-      yearly: 499.99,
+      monthly: 99.99,
+      yearly: 999.99,
     },
     stripeIds: {
       monthly: null, // Need to create new stripe product

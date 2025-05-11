@@ -59,7 +59,7 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
                     <span>
                       {offer.title === "Starter" && "$3.99"}
                       {offer.title === "Growth" && "$15.99"}
-                      {offer.title === "Pro" && "$39.99"}
+                      {offer.title === "Pro" && "$79.99"}
                     </span>
                   </>
                 ) : (
@@ -74,7 +74,7 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
           {offer.prices.monthly > 0 ? (
             <div className="text-left text-sm text-muted-foreground">
               {isYearly
-                ? `$${offer.title === "Starter" ? "47.88" : offer.title === "Growth" ? "191.88" : "479.88"} will be charged when annual`
+                ? `$${offer.title === "Starter" ? "47.88" : offer.title === "Growth" ? "191.88" : "959.88"} will be charged when annual`
                 : "when charged monthly"}
             </div>
           ) : null}

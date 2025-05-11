@@ -5,7 +5,7 @@ import { HeaderSection } from "@/components/shared/header-section";
 
 export default function Testimonials() {
   return (
-    <section>
+    <section id="testimonials">
       <div className="container flex max-w-6xl flex-col gap-10 py-32 sm:gap-y-16">
         <HeaderSection
           label="Testimonials"
