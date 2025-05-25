@@ -62,8 +62,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
         </div>
 
         <div className="flex items-center space-x-3 flex-shrink-0">
-          <Link
-            href="/dashboard"
+          <a
+            href="https://form.typeform.com/to/mEreyEgo" // TODO: Replace with your actual Typeform link
+            target="_blank"
+            rel="noopener noreferrer"
             className="hidden md:block"
           >
             <Button
@@ -72,10 +74,10 @@ export function NavBar({ scroll = false }: NavBarProps) {
               size="sm"
               rounded="full"
             >
-              <span>Get Started</span>
+              <span>Join the Waitlist</span>
               <Icons.arrowRight className="size-4" />
             </Button>
-          </Link>
+          </a>
         </div>
       </MaxWidthWrapper>
     </header>
