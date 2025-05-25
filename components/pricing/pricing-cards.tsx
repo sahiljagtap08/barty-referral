@@ -6,6 +6,7 @@ import { UserSubscriptionPlan } from "@/types";
 
 import { SubscriptionPlan } from "@/types/index";
 import { pricingData } from "@/config/subscriptions";
+
 import { cn } from "@/lib/utils";
 import { Button, buttonVariants } from "@/components/ui/button";
 import { ToggleGroup, ToggleGroupItem } from "@/components/ui/toggle-group";
@@ -104,7 +105,9 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
           {userId && subscriptionPlan ? (
             offer.title === "Starter" ? (
               <Link
-                href="/dashboard"
+                href="https://form.typeform.com/to/mEreyEgo"
+                target="_blank"
+                rel="noopener noreferrer"
                 className={cn(
                   buttonVariants({
                     variant: "outline",
@@ -113,7 +116,7 @@ export function PricingCards({ userId, subscriptionPlan }: PricingCardsProps) {
                   "w-full",
                 )}
               >
-                Go to dashboard
+                Join the waitlist
               </Link>
             ) : (
               <BillingFormButton
